@@ -46,3 +46,7 @@ desktop.ini
 *.log
 tmp/
 temp/
+
+build/bin
+node_modules
+frontend/dist

@@ -1,0 +1,48 @@
+# ── Wails build output ──────────────────────────────
+build/bin/
+ 
+# ── Frontend ─────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.pnp
+frontend/.pnp.js
+ 
+# ── Go ───────────────────────────────────────────────
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+ 
+# ── Secrets & env files ──────────────────────────────
+.env
+.env.*
+*.env
+config.yaml
+config.yml
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+ 
+# ── OS junk ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# ── IDE / editors ────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+ 
+# ── Logs & temp ──────────────────────────────────────
+*.log
+tmp/
+temp/

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "gopostman",
+  "outputfilename": "gopostman",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "sharkbyteNK",
+    "email": "268369747+sharkbyteNK@users.noreply.github.com"
+  }
+}
